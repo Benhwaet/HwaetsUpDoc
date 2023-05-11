@@ -6,19 +6,64 @@
 
 header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;;
+    flex: 0 0 100%;
     align-items: center;
+    border-top: 5px solid;
     color: gold;
     background-color: rgb(23, 23, 79);
 }
 
-nav {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    color: white;
+h1 {
+    font-size: 50px;
+    margin-left: 20px;
 }
 
-li {
+nav {
+    display: flex;
+    color: white;
+    border: 5px solid red;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+}
+
+.list {
+    margin: 30px;
+}
+
+.subtitle {
+    display: block;
+    text-align: right;
+    border-bottom: 5px solid gold;
+    color: gold;
+    background-color: rgb(23, 23, 79);
+}
+
+.subtitle h2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.list {
+    display: flex;
+    justify-content: flex-end;
     list-style: none;
+}
+
+h3 {
+    display: flex;
+    flex: 0 0 25%;
+    justify-content: flex-start;
+    border-right: 5px solid gold;
+}
+
+main {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 100%;
+
 }
