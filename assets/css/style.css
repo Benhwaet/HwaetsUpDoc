@@ -2,11 +2,16 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    /* border: 1px solid rgb(23, 23, 79); */
 }
 
+body {
+    background-color: skyblue;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
 header {
     display: flex;
-    justify-content: space-between;;
+    justify-content: space-between;
     flex: 0 0 100%;
     align-items: center;
     border-top: 5px solid;
@@ -17,12 +22,12 @@ header {
 h1 {
     font-size: 50px;
     margin-left: 20px;
+    font-family: fantasy;
 }
 
 nav {
     display: flex;
     color: white;
-    border: 5px solid red;
 }
 
 .navigation {
@@ -38,6 +43,7 @@ nav {
     display: block;
     text-align: right;
     border-bottom: 5px solid gold;
+    font-family: fantasy;
     color: gold;
     background-color: rgb(23, 23, 79);
 }
@@ -48,22 +54,75 @@ nav {
 }
 
 
-.list {
+.list{
     display: flex;
     justify-content: flex-end;
     list-style: none;
 }
 
+
 h3 {
     display: flex;
-    flex: 0 0 25%;
+    flex: 0 0 21.2%;
     justify-content: flex-start;
-    border-right: 5px solid gold;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: fantasy;
+    border-right: 5px solid rgb(23, 23, 79);
 }
+
+
 
 main {
     box-sizing: border-box;
-    display: flex;
     flex: 0 0 100%;
-
+    /* align-items: flex-start; */
 }
+
+.aboutme {
+    display: flex;
+    justify-content: flex-end;
+    flex: 0 0 45%;
+}
+
+.projects {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.mainproject {
+    
+}
+
+.profiles {
+    display: flex;
+    justify-content: space-between;;
+    flex: 0 0 100%;
+    align-items: center;
+    border-top: 5px solid;
+    color: gold;
+    background-color: rgb(23, 23, 79);
+}
+
+.contact {
+    flex: 0 0 25;
+}
+
+.contactlinks {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex: 0 0 100%;
+    align-content: center;
+    border-top: 5px solid;
+    color: gold;
+    background-color: rgb(23, 23, 79);
+}
+
