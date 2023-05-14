@@ -6,15 +6,11 @@ Welcome to the Hwaet's Up Doc, a website where I can showcase my work. This repo
 
 ## Usage
 
-<<<<<<< Updated upstream
-
-=======
 To access the application/webpage, navigate to <https://benhwaet.github.io/HwaetsUpDoc/>. The navigation links are functional and so are the videogame platform profiles, while the email is non-functional at the moment.
-To see the base files and the first attempts at accomplishing this project, see the repository on <https://github.com/Benhwaet/HwaetsUpDoc>.
-The placeholder images are to represent future projects that will serve as examples of my work.
+To see the base files and the first attempts at accomplishing this project, see the repository on <https://github.com/Benhwaet/HwaetsUpDoc>. The repository What's Up Doc serves as my first attempt at this project at <https://github.com/Benhwaet/WhatsUpDoc>, attempt to merge as a subdirectory failed. To be attempted when next working on the project.
 
+The placeholder images are to represent future projects that will serve as examples of my work.
 The intent is to keep working on this website as I learn more about web development, in order to implement these new concepts. See commits and file comments for details.
->>>>>>> Stashed changes
 
 ## Credits
 
