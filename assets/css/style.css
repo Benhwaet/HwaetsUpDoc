@@ -51,6 +51,7 @@ nav {
     margin: 30px;
 }
 
+
 .subtitle {
     display: block;
     text-align: right;
@@ -110,29 +111,71 @@ main h3 {
 .headshot {
     height: 300px;
     width: auto;
-    padding: 30px 30px 0 0;
+    padding: 40px;
 }
 .bio {
+    position: static;
     padding: 50px;
     text-align: justify;
     text-indent: 15px;
     color: white;
 }
 
-#welcome {
-    margin-left: 100px;
-}
-/* .projects {
+.projects {
     display: flex;
-    justify-content: flex-end;    
-} */
-
-.projectcard {
-    display: block;
-    flex: 0 0 63%;
-
+    justify-content: space-evenly;
+    padding: 30px;
+    margin: 30px;    
 }
 
+.placeholder:hover {
+    background-color: rgb(198, 29, 245);
+    
+}
+.imagetext1 {
+    color:rgb(23, 23, 79);
+    position: absolute;
+    background-color: goldenrod;
+    color: rgb(23, 23, 79);
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.imagetext2 {
+    position: absolute;
+    padding: 30px;
+    margin-right: 22pc;
+    color: rgb(23, 23, 79);
+    background-color: goldenrod;
+    border-radius: 15px;
+}
+
+.imagetext3 {
+    position: absolute;
+    background-color: goldenrod;
+    color: rgb(23, 23, 79);
+    padding: 30px;
+    margin-left: 23pc;
+    border-radius: 15px;
+}
+
+.imagetext4 {
+    position: absolute;
+    background-color: goldenrod;
+    color: rgb(23, 23, 79);
+    padding: 30px;
+    margin-right: 22pc;
+    border-radius: 15px;
+}
+
+.imagetext5 {
+    position: absolute;
+    background-color: goldenrod;
+    color: rgb(23, 23, 79);
+    padding: 30px;
+    margin-left: 22pc;
+    border-radius: 15px;
+}
 .mainproject {
     display: flex;
     justify-content: space-around;
@@ -161,6 +204,7 @@ main h3 {
 .profiles::after {
     color: orange;
 }
+
 .lefttitle {
     display: flex;
     justify-content: center;
@@ -189,10 +233,12 @@ label {
     display: flex;
     justify-content: flex-start;
     margin: 10px;
+
 }
 #pronouns {
     width: 20%;
 }
+
 .textarea {
     background-color: rgb(234, 217, 123);
     font-size: 16px;
@@ -211,3 +257,27 @@ footer {
     background-color: rgb(23, 23, 79);
 }
 
+@media screen and (max-width: 1200px) {
+    header,
+    .projects {
+        flex-direction: column;
+    }    
+}
+
+@media screen and (max-width: 900px) {
+    .aboutme,
+    .contactlinks
+     {
+        flex-direction: column;
+    }
+    .headshot {
+        width: 300px;
+        margin-left: 33%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .sideproject {
+        flex-direction: column;
+        }
+    }
