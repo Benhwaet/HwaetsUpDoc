@@ -1,4 +1,6 @@
-# HwaetsUpDoc (Take Two)
+
+# Hwaet's Up Doc - Take Two
+
 
 ## Description
 
@@ -6,19 +8,16 @@ Welcome to the Hwaet's Up Doc, a website where I can showcase my work. This repo
 
 ## Usage
 
-<<<<<<< Updated upstream
-
-=======
 To access the application/webpage, navigate to <https://benhwaet.github.io/HwaetsUpDoc/>. The navigation links are functional and so are the videogame platform profiles, while the email is non-functional at the moment.
 To see the base files and the first attempts at accomplishing this project, see the repository on <https://github.com/Benhwaet/HwaetsUpDoc>.
 The placeholder images are to represent future projects that will serve as examples of my work.
 
 The intent is to keep working on this website as I learn more about web development, in order to implement these new concepts. See commits and file comments for details.
->>>>>>> Stashed changes
 
 ## Credits
 
-Images or astrology diagrams found on publicdomainimages.com.
+Images or astrology diagrams found on publicdomainimages.net.
+
 
 ## License
 
