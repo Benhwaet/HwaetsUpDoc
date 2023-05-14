@@ -6,6 +6,7 @@
     /* border: 1px solid rgb(23, 23, 79); */
 }
 
+/* Try to apply background image in future*/
 body {
     /* background-image: url("assets/images/Milky-Way-Galaxy copy.jpg"); */
     background: rgb(18, 2, 43);
@@ -21,17 +22,22 @@ header {
     background-color: rgb(23, 23, 79);
 }
 
-/* Sets the link's color before clicking */
+
+/* Sets the colors of linked/anchored items when unvisited, 
+visited, and hovered over*/
+
 a:link {
     color: lightgoldenrodyellow;
 }
 
-/* Sets link color after clicking */
 a:visited {
     color: yellow;
 }
 
-/* Text made to glow with shadow properties */
+a:hover {
+    color: orangered; 
+}
+
 h1 {
     font-size: 75px;
     margin-left: 20px;

@@ -1,4 +1,6 @@
-# HwaetsUpDoc (Take Two)
+
+# Hwaet's Up Doc - Take Two
+
 
 ## Description
 
@@ -14,7 +16,8 @@ The intent is to keep working on this website as I learn more about web developm
 
 ## Credits
 
-Images or astrology diagrams found on publicdomainimages.com.
+Images or astrology diagrams found on publicdomainimages.net.
+
 
 ## License
 
