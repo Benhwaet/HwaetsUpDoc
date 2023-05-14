@@ -22,8 +22,10 @@ header {
     background-color: rgb(23, 23, 79);
 }
 
-/* Sets the colors of link items when unvisited, 
+
+/* Sets the colors of linked/anchored items when unvisited, 
 visited, and hovered over*/
+
 a:link {
     color: lightgoldenrodyellow;
 }
@@ -88,6 +90,7 @@ nav {
     list-style: none;
 }
 
+/* Formats all main website headers */
 h3 {
     display: flex;
     flex: 0 0 21.2%;
@@ -141,6 +144,10 @@ main h3 {
     background-color: rgb(198, 29, 245);
     
 }
+
+/* Placeholder text edited individually for now, 
+when attempting to edit all text at once since they have the same properties, 
+positioning errors occur */
 .imagetext1 {
     color:rgb(23, 23, 79);
     position: absolute;
@@ -195,10 +202,9 @@ main h3 {
     justify-content: space-evenly;
     height: 350px;
     padding: 20px;
-
 }
 
-
+/*formats links leading to videogame social profiles, email link non functional at the moment*/
 .profiles {
     display: flex;
     justify-content: space-between;
@@ -229,6 +235,9 @@ main h3 {
     list-style: none;   
 }
 
+/*Edits the properties of the fill out form, 
+titles and text boxes. Form not linked to receive an typed in data, 
+to be done later with Javascript?*/
 .form {
     display: flex;
     flex: 0 0 30%;
@@ -266,6 +275,9 @@ footer {
     background-color: rgb(23, 23, 79);
 }
 
+/* Attempts at changing format when seen on different screen sizes, 
+not yet optimised for phone screens and only somewhat optimized for 
+ipad and smaller laptop screens */
 @media screen and (max-width: 1200px) {
     header,
     .projects {
