@@ -62,7 +62,7 @@ nav {
     margin: 30px;
 }
 
-
+/*A separate row to individualise its design later on*/
 .subtitle {
     display: block;
     text-align: right;
@@ -101,8 +101,8 @@ h3 {
     font-size: 40px;
     font-weight: bolder;
     font-family: fantasy;
-
 }
+
 
 main {
     box-sizing: border-box;
@@ -111,6 +111,8 @@ main {
 
 main h3 {
     color: gold;
+    margin-right: 50px;
+    width: 400px;
 }
 
 .aboutme {
@@ -121,18 +123,43 @@ main h3 {
 }
 
 .headshot {
-    height: 300px;
-    width: auto;
-    padding: 40px;
+    margin-top: 0px;
+    padding-bottom: 60px;
+    padding: 60px;
+    color: white;
+    line-height: 1.25;
 }
+
+.headshot img {
+    margin-bottom: 30px;
+}
+
+p {
+    margin-top: 20px;
+}
+
+strong {
+    font-style:italic;
+}
+
 .bio {
-    position: static;
+    position: block;
+    width: 700px;
     padding: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 20px;
     text-align: justify;
     text-indent: 15px;
     color: white;
+    line-height: 1.25;
+    background-color:black;
+    border-radius: 20px;
 }
 
+#welcome {
+    padding:50px;
+}
 .projects {
     display: flex;
     justify-content: space-evenly;
@@ -141,18 +168,21 @@ main h3 {
 }
 
 .placeholder:hover {
-    background-color: rgb(198, 29, 245);
-    
+    opacity: 0.8;
 }
 
+.placeholder {
+    margin: 25px;
+}
 /* Placeholder text edited individually for now, 
 when attempting to edit all text at once since they have the same properties, 
 positioning errors occur */
 .imagetext1 {
-    color:rgb(23, 23, 79);
+    color:rgb(31, 31, 111);
     position: absolute;
-    background-color: goldenrod;
-    color: rgb(23, 23, 79);
+    background-color:  goldenrod;
+    color:rgb(23, 23, 79);
+    margin-top: 300px;
     padding: 30px;
     border-radius: 15px;
 }
@@ -160,38 +190,43 @@ positioning errors occur */
 .imagetext2 {
     position: absolute;
     padding: 30px;
-    margin-right: 22pc;
-    color: rgb(23, 23, 79);
-    background-color: goldenrod;
+    margin-top: 130px;
+    margin-right: 26pc;
+    color: gold;
+    background-color: rgb(32, 32, 135);
     border-radius: 15px;
 }
 
 .imagetext3 {
     position: absolute;
-    background-color: goldenrod;
-    color: rgb(23, 23, 79);
+    background-color:  rgb(32, 32, 135);
+    margin-top: 130px;
+    color: gold;
     padding: 30px;
-    margin-left: 23pc;
+    margin-left: 26pc;
     border-radius: 15px;
 }
 
 .imagetext4 {
     position: absolute;
-    background-color: goldenrod;
-    color: rgb(23, 23, 79);
+    background-color: rgb(32, 32, 135);
+    color: gold;
     padding: 30px;
-    margin-right: 22pc;
+    margin-top: 130px;
+    margin-right: 26pc;
     border-radius: 15px;
 }
 
 .imagetext5 {
     position: absolute;
-    background-color: goldenrod;
-    color: rgb(23, 23, 79);
+    background-color: rgb(32, 32, 135);
+    color: goldenrod;
+    margin-top: 130px;
     padding: 30px;
-    margin-left: 22pc;
+    margin-left: 26pc;
     border-radius: 15px;
 }
+
 .mainproject {
     display: flex;
     justify-content: space-around;
